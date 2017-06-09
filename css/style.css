@@ -1,0 +1,207 @@
+body{
+	margin:0;
+	padding:0;
+	
+	font-family: 'Open Sans', sans-serif !important;
+ }
+h1{
+	margin:0px;
+	padding-top:60px;
+	padding-left:100px;
+	font-size: 120px;
+}
+h3 {
+  padding-top:30px;
+  font-family: 'Jockey One', sans-serif;
+  margin: 0;
+  color:#323b43;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 400;
+}
+h4 {
+  text-align: center;
+  font-size: 17px;
+  color:#d9ffc4;
+  font-weight: 600;
+  margin: 10px 0 16px 0;
+  font-style: italic;
+}
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  width: 71%;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+
+.mytop{
+	background:#ced7df;
+}
+.leftnav,.rightnav{
+	display:inline-block;
+	
+}
+
+.mymenu{
+	border:0px;
+	margin:0px;
+	padding-left:100px;
+	height:550px;
+}
+.mymenu ul {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+.mymenu ul li{
+    display:block;
+    line-height: 4.2em;
+	
+}
+.mymenu ul li a {
+  color: #323b43;
+  margin: 0px 0px;
+  font-size: 17px;
+  padding: 11px 104px;
+  background: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*-- 控制导航栏长度 --*/
+.mymenu ul li:nth-child(2) a {
+  padding: 11px 90px;
+}
+.mymenu ul li:nth-child(1) a {
+  padding: 11px 62px;
+}
+.mymenu ul li:nth-child(4) a {
+  padding: 11px 90px;
+}
+.mymenu ul li:nth-child(5) a {
+  padding: 11px 62px;
+}
+/*-- //控制导航栏长度 --*/
+
+/*-- 鼠标选择时的效果 --*/
+.mymenu a::before,
+.mymenu a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+.mymenu a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+.mymenu a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+.mymenu a:hover::before,
+.mymenu a:hover::after,
+.mymenu a:focus::before,
+.mymenu a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+/*-- //鼠标选择时的效果 --*/
+
+/*-- 图片设置 --*/
+.rightnav img{
+	
+	position:relative;
+	left:160px;
+	top:150px;
+}
+/*-- //图片设置 --*/
+
+/*-- 个人简介 --*/
+.about{
+	background:#76b852;
+	height:350px;
+	margin:0px;
+}
+
+.about-info h4 {
+  text-align: center;
+  font-size: 17px;
+  color:#d9ffc4;
+  font-weight: 600;
+  margin: 10px 0 16px 0;
+  font-style: italic;
+}
+.about-info p {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  width: 71%;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+.about-grids h4{
+  padding-top:20px;
+  margin:0px;
+  font-family: 'Jockey One', sans-serif;
+  text-align: center;
+  color: #d9ffc4;
+  font-size: 24px;
+  
+}
+.about-grids p{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  width: 71%;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+/*-- //个人简介 --*/
+
+/*-- 家乡模块 --*/
+.hometown{
+	height:600px;
+	background:#999999;
+}
+/*-- //家乡模块 --*/
+.container{
+	padding-top:20px;
+}
+.left-pic,.right-pic{
+	display:inline-block;
+}
+.left-pic{
+	padding-left:30px;
+}
+.result{
+	background:#76b852;
+	height:250px;
+}
+.classes{
+	height:500px;
+}
+table{
+	font-family: 'Jockey One', sans-serif;
+	width:1040;
+
+	cellpadding:0;
+	cellspacing:0;
+}
+td{
+	height:50;
+	
+}
+
+
+
