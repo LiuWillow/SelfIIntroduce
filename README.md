@@ -1,13 +1,8 @@
 # SelfIntroduce
-ÓÃhtmlºÍcss±àÐ´µÄ¼òµ¥¸öÈËÖ÷Ò³
+ç”¨htmlå’Œcssç¼–å†™çš„ç®€å•ä¸ªäººä¸»é¡µ
 
 ## Screenshots
 
 <img src="screenshots/1.png" width="330"  hspace="20">
 <img src="screenshots/2.png" width="330"  hspace="20">
 <img src="screenshots/3.png" width="330"  hspace="20">
-
-
-<br><br>
-## About Me
-Ò»¸ö²»ÎñÕýÒµ×ÔÑ§°²×¿°ëÄê¶àµÄ´óÈý¹¤¿ÆÉú- - ¶Ô°²×¿¿ª·¢ÓÐ×ÅÅ¨ºñµÄÐËÈ¤
